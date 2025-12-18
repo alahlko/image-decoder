@@ -7,8 +7,8 @@ set(CMAKE_BUILD_TYPE Release)
 option(WITH_JPEG "Include JPEG decoder" ON)
 option(WITH_PNG "Include PNG decoder" ON)
 option(WITH_WEBP "Include WebP decoder" ON)
-option(WITH_HEIF "Include HEIF decoder" OFF)
-option(WITH_AVIF "Include AVIF decoder" OFF)
+option(WITH_HEIF "Include HEIF decoder" ON)
+option(WITH_AVIF "Include AVIF decoder" ON)
 option(WITH_JXL "Include JXL decoder" ON)
 
 add_library(imagedecoder SHARED
