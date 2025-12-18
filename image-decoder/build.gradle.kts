@@ -29,6 +29,8 @@ android {
                     "-DCMAKE_SKIP_INSTALL_RULES=TRUE",
                     "-DCMAKE_INSTALL_DATAROOTDIR=share",
                     "-DCMAKE_INSTALL_DATADIR=share",
+					"-DWITH_AVIF=ON",
+					"-DWITH_HEIF=ON",
                 )
             }
         }
